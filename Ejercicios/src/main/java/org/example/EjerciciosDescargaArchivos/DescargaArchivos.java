@@ -18,9 +18,13 @@ public class DescargaArchivos  extends Thread{
     public void main (String[] args){
         DescargaArchivos thread1 = new DescargaArchivos();
         DescargaArchivos thread2 = new DescargaArchivos();
+        DescargaArchivos thread3 = new DescargaArchivos();
+        DescargaArchivos thread4 = new DescargaArchivos();
 
         thread1.start();
         thread2.start();
+        thread3.start();
+        thread4.start();
     }
 
 
