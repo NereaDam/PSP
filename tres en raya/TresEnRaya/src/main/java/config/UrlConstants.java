@@ -14,8 +14,9 @@ public final class UrlConstants {
     public static final String URL_HOLA = "/hola";
     public static final String URL_ADIVINA = "/adivina";
 
+
     // Rutas de plantillas Thymeleaf
     public static final String TEMPLATE_PREFIX = "/WEB-INF/templates/";
     public static final String TEMPLATE_SUFFIX = ".html";
-
+    public static final String TEMPLATE_TRES_EN_RAYA="tresEnRaya";
 }
